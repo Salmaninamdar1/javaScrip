@@ -21,25 +21,17 @@ for(var i=0; i<employees.length; i++){
 function Employees (a,b,c){
     this.empyid=a;
     this.empyname= b;
-    this.empydept =c;
-
-    this.result=function(){
-        if(this.empyid<=102){return "pass"}
-        else{
-            return "false"
-        }
-    }
+    this.empydept =c; 
 
 }
 var employees = [
     new Employees(101,"Salman","system "),
     new Employees(102,"mujahed","engineer"),
     new Employees(103,"saif","manager"),
-    
 
 ]
 // console.log(employees);
-// for (var i=0; i<employees.length; i++){
-//     console.log(employees[i]);
-// }
-console.log(employees.result());
+for (var i=0; i<employees.length; i++){
+    console.log(typeof(employees[i]),employees[i].empyid);
+
+}
