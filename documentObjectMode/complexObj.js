@@ -43,3 +43,4 @@ var contact = {
 // console.log(typeof (contact.preferences));
 
 console.log(contact.contactMechanisum);
+
