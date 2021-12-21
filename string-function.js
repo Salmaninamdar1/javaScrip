@@ -49,5 +49,10 @@ var b= "inamdar";
 var c= a.concat(b);
 console.log(c);
 //or
-var i="hyderabad".concat("city");
+var i="hyderabad".concat(" city");
 console.log(i);
+
+var a=10;
+var b="10";
+var c="10";
+console.log(b===c)
